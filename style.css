@@ -212,6 +212,7 @@ p{
     background: #03a9f4;
 }
 
+/*
 .interest ul{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -230,6 +231,7 @@ p{
     width: 20px;
 }
 
+*/
 @media (max-width: 1000px){
     .container{
         margin: 10px;
