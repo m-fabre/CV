@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -212,26 +211,6 @@ p{
     background: #363636;
 }
 
-/*
-.interest ul{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-
-.interest ul li{
-    list-style: none;
-    color: #333;
-    font-weight: 500;
-    margin: 10px 0 ;
-}
-
-.interest ul li .fa{
-    color: #03a9f4;
-    font-size: 18px;
-    width: 20px;
-}
-
-*/
 @media (max-width: 1000px){
     .container{
         margin: 10px;
@@ -255,4 +234,123 @@ p{
     .skills .box{
         grid-template-columns: repeat(1,1fr);
     }
+}
+
+.top{
+    position: fixed;
+    top: 0;
+}
+
+.btn{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+    border-radius: 5px;
+    border-color: #4c4a4a;
+    background-color: #f6f1ee;
+    padding: 5px;
+    color: #4c4a4a;
+    cursor: pointer;
+}
+
+.modo-oscuro .btn{
+    border-radius: 5px;
+    border-color: #cccccc;
+    background-color: #0a0a0a;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modo-oscuro{
+    background: #000;
+}
+
+.modo-oscuro .container{
+    background-color: #000;
+    box-shadow: 0 35px 55px #000;
+}
+
+.modo-oscuro .container .left_side{
+    background-color: #0a0a0a;
+}
+
+.modo-oscuro .profileText{
+    border-bottom: 1px solid rgba(25, 24, 24);
+}
+
+.modo-oscuro .profileText h2{
+    color: #aca9a7;
+}
+
+.modo-oscuro .title{
+    color: #aca9a7;
+}
+
+.modo-oscuro .contactInfo ul li .icon{
+    color: #aca9a7;
+}
+
+.modo-oscuro .contactInfo ul li span{
+    color: #aca9a7;
+}
+
+.modo-oscuro .contactInfo.education h5{
+    color: #aca9a7;
+}
+
+.modo-oscuro .contactInfo.education h4:nth-child(2){
+    color: #aca9a7;
+}
+
+.modo-oscuro .contactInfo.education h4{
+    color: #aca9a7;
+}
+
+.modo-oscuro .contactInfo.language .percent{
+    background: #363636;
+}
+
+.modo-oscuro .contactInfo.language .percent div{
+    background: #ddd9d6;
+}
+.modo-oscuro .container .right_side{
+    background-color: #0e0d0d;
+}
+
+.modo-oscuro .title2{
+    color: #aca9a7;
+}
+
+.modo-oscuro p{
+    color: #aca9a7;
+}
+
+.modo-oscuro .about .box .year_company h5{
+    color: #aca9a7;
+}
+
+.modo-oscuro .about .box .text h4{
+    color: #aca9a7;
+}
+
+.modo-oscuro .skills .box h4{
+    color: #aca9a7;
+}
+.modo-oscuro .skills .box .percent{
+    background: #363636;
+}
+
+.modo-oscuro .skills .box .percent div{
+    background: #f5f4f3;
+}
+
+
+.btn{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
 }
